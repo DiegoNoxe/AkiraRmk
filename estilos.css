@@ -1,0 +1,75 @@
+*
+{
+    padding: 0;
+    margin:  0;
+}
+
+body
+{
+    background-color: #0D0D0D;
+}
+
+header 
+{
+    height: 4.5rem;
+    font-size: 1.8em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    background-color: #29202c;
+    color: #f0d800;
+    text-align: center;
+    position: sticky;
+    top: 0; 
+    /*z-index: 1000;*/ 
+}
+
+#akira
+{
+    background: rgba(0, 0, 0, 0.4) url(imgs/AkiraFoto.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 60rem;
+}
+
+#GokuAmigos
+{
+    background: rgba(0, 0, 0, 0.4) url(imgs/GokuEoutros.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 60rem;
+}
+
+
+
+
+
+
+#criador
+{
+    transition: 2s;
+    color: #f0d800;
+    text-decoration: none;
+    
+}
+
+
+#criador:hover
+{
+    transition: 2s;
+    color: #00e1ff;
+    text-decoration: underline;
+    
+}
+
+footer p 
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
