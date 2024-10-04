@@ -11,4 +11,8 @@ function showInfo(infoId) {
     document.getElementById(infoId).style.display = "block";
 }
 
+function mudarFundo(imageUrl) 
+{
+    document.body.style.backgroundImage = `url('${imageUrl}')`;
+}
 
